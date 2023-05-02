@@ -1,0 +1,57 @@
+html {
+  font-size: 12px;
+  font-family: 'Roclette', Oswald;
+}  
+  
+h1 {
+  font-size: 64px;
+  text-align: center;
+}
+  
+html {
+  background-color: #84A6E3;
+}
+  
+body {
+  margin: 0 auto;
+  background-color: #84A6E3;
+  padding: 0 20px 20px 20px;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding-right: 1em
+}
+
+nav {
+  padding: .20em;
+  font-size: 20px;
+  text-align: center;
+
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+
+  
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: .5em 1em;
+}
