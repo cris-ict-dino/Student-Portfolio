@@ -5,16 +5,17 @@ html {
   
 h1 {
   font-size: 64px;
+  color: #000;
   text-align: center;
 }
   
 html {
-  background-color: #84A6E3;
+  background-color: #abcaff;
 }
   
 body {
   margin: 0 auto;
-  background-color: #84A6E3;
+  background-color: #abcaff;
   padding: 0 20px 20px 20px;
 }
 
@@ -28,10 +29,10 @@ body {
 }
 
 nav {
+  background-color: hsl(0, 0%, 100%);
   padding: .20em;
   font-size: 20px;
   text-align: center;
-
   position: sticky;
   top: 0px;
   left: 0px;
@@ -39,6 +40,7 @@ nav {
 
 nav ul {
   margin: 0;
+  border: 2px rgb(0, 0, 0);
   padding: 0;
   list-style: none;
 
