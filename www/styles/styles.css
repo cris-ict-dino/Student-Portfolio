@@ -4,7 +4,7 @@ html {
 }  
   
 .logo {
-  font-size: 64px;
+  font-size: 58px;
   text-align: center;
   text-decoration: none;
 }
@@ -72,7 +72,25 @@ nav a {
 }
 
 .Subtitle a {
-  color:#000;
+  color:#3037ef;
   text-decoration: none;
   font-size: 32px;
 }
+
+.context {
+  color: #000;
+  text-align: left;
+  text-decoration: none;
+  padding: 0em 5em;
+}
+
+.context a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  width: 200px;
+  padding-left: 0em;
+  border: 2px #000
+}
+
+
