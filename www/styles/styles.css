@@ -96,8 +96,6 @@ nav a {
   font-size: 20px;
   width: 200px;
   padding-left: 0em;
-  border: 2px #000;
-  background-color:hsl(0, 0%, 100%)
 }
 
 
@@ -105,4 +103,10 @@ nav a {
   width: 200px;
   float: center;
   margin: 0 1em 1em 2.5em;
+}
+
+.feature1 {
+  width: 200px;
+  float: center;
+  margin: 0 1em 1em 25em;
 }
