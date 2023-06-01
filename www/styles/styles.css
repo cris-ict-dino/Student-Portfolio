@@ -73,7 +73,7 @@ nav a {
 }
 
 .Subtitle a {
-  color:#0020ed;
+  color:#000000;
   font-size: 32px;
 }
 
@@ -104,18 +104,33 @@ nav a {
   margin: 0 1em 1em 2.5em;
 }
 
-.feature1 {
-  width: 200px;
-  float: center;
-  margin: 0 1em 1em 25em;
-}
-
 .p1 {
   color:#000;
   font-size: 18px;
   text-decoration: none;
-  margin: 3em;
+  margin: 12em 0 0 0;
   display: flex;
   justify-content: space-evenly;
 }
 
+.img-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-row img {
+  width: 40%;
+  margin: 2em 0 0 0;
+}
+
+.logo {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
